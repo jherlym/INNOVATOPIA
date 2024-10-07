@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;  
+}
+body{
+    text-align: center;
+    background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff);
+    background-size: 300% 300%;
+    animation: color 3s ease-in-out infinite;
+    width: 100%;
+    height: 105vh;
+}
+@keyframes color{
+    0%{
+        background-position: 0 30%;
+    }
+    50%{
+        background-position: 50% 30%;
+    }
+    100%{
+        background-position: 0 30%;
+    }
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200vh;
+    height: 95vh;
+}
+.logo img{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    top: 10px;
+    left: 190vh;
+}
+.menus{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 65px;
+    color: black;
+}
+/* .innova{
+    display: flex;
+    position: absolute;
+    left: 120vh;
+    font-size: 15px;
+    color: white;
+} */
+.qnsomos{
+    position: absolute;
+    left:  30vh;
+    font-size: 15px;
+    color: white;
+}
+.menu{
+    position: absolute;
+    right: 7.5vh;
+    font-size: 15px;
+    color: white;
+}
+.tabla{
+    display: flex;
+    position: absolute;
+    left: 6.5vh;
+    top: 15vh;
+    height: 47vh;
+    background-color: #706dff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 105px;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    border-radius: 5px;
+}
+.tabla nav ul{
+    display: block;
+    font-size: 0px;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+}
+.tabla nav ul li{
+    position: relative;
+    float: left;
+}
+.tabla nav ul li a{
+    font-size: 16px;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.inicio2{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 14px;
+    left: 26px;
+}
+.somos{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 47px;
+    left: 8px;
+}
+.tuto{
+    position: absolute;
+    top: 83px;
+    left: 12px;
+}
+.gale{
+    position: absolute;
+    top: 119px;
+    left: 17px;
+}
+.presta{
+    position: absolute;
+    top: 158px;
+    left: 7px;
+}
+.historial{
+    display: flex;
+    position: absolute;
+    top: 196px;
+    left: 8px;
+}
+.normas{
+    display: flex;
+    position: absolute;
+    top: 232px;
+    left: 17px;
+}
+.salir{
+    display: flex;
+    position: absolute; 
+    top: 265px;
+    left: 28px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: "Bebas Neue", sans-serif;
+font-family: "Poppins", sans-serif;
+*/
+
+.card1 .image1 img{
+    display: flex;
+    width: 170px;
+    margin-left: 14vh;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+.resumen1 p{
+    width: 220px;
+    margin-left: 10vh;
+    margin-top: 1vh;
+    font-size: 15px;
+    color: white;
+}
+.boton1 a{
+    display: inline-block;
+    padding: 5px 20px;
+    background: linear-gradient(
+    90deg,
+    rgb(149, 78, 215) 0%, 
+    rgba(74,42,193,1) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: -1vh;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.card2 .image2 img{
+    display: flex;
+    width: 170px;
+    margin-left: 14vh;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+.resumen2 p{
+    display: center;
+    width: 200px;
+    font-size: 15px;
+    margin-left: 12vh;
+    color: white;
+}
+.boton2 a{
+    display: inline-block;
+    padding: 5px 20px;
+    background: linear-gradient(
+    90deg,
+    rgba(149,78,215) 0%, 
+    rgba(74,42,193,1) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.tablaok1{
+    background-color: #706dff;
+    background-size: 100%;
+    width: 28%;
+    height: 79%;
+    margin-top: 110px;
+    margin-left: 20vh;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+} 
+.tablaok2{
+    background-color: #706dff;
+    background-size: 100%;
+    width: 28%;
+    height: 79%;
+    margin-top: 110px;
+    margin-left: 10vh;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.agradecimientos h4{
+    position: relative;
+    font-size: 25px;
+    color: white;
+}
+.agradecimientos p{
+    position: absolute;
+    background-color: rgba(189, 189, 189, 0.562);
+    width: 60%;
+    border-radius: 50px;
+    left: 20%;
+    font-size: 18px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.profile{
+    position: absolute;
+    display: flex;
+    background: linear-gradient(45deg,#604eff, white);
+    width: 3.5%;
+    height: 8%;
+    border-radius: 60px;
+    margin-top: 41%;  
+    margin-left: -185vh;
+    font-size: 25px;  
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    animation: color 3s ease-in-out infinite;
+}
+.profile:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.profile a{
+    margin-left: 23%;
+    margin-top: 20%;
+    color: #4e3bf5;
+}
+
+@media(max-width: 780px){
+
+    .menus{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 45px;
+        color: black;
+    }
+    .innova{
+        display: flex;
+        position: absolute;
+        left: 19.4vh;
+        font-size: 8px;
+        color: white;
+    }
+    .qnsomos{
+        position: absolute;
+        left: 9vh;
+        font-size: 8px;
+        color: white;
+    }
+    .menu{
+        position: absolute;
+        right: -4.3vh;
+        font-size: 8px;
+        color: white;
+    }
+    .logo img{
+        display: flex;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 150px;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        top: 10px;
+        left: 36vh;
+    }
+    .tabla{
+        display: flex;
+        position: absolute;
+        left: 2vh;
+        top: 8vh;
+        height: 24vh;
+        background-color: #706dff;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 78px;
+        justify-content: center;
+        align-items: center; 
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .tabla nav ul li a{
+        font-size: 9px;
+        color: white;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .inicio2{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 12px;
+        left: 24px;
+    }
+    .somos{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 38px;
+        left: 12px;
+    }
+    .tuto{
+        position: absolute;
+        top: 65px;
+        left: 14px;
+    }
+    .gale{
+        position: absolute;
+        top: 90px;
+        left: 17px;
+    }
+    .presta{
+        position: absolute;
+        top: 117px;
+        left: 12px;
+    }
+    .historial{
+        display: flex;
+        position: absolute;
+        top: 145px;
+        left: 12px;
+    }
+    .normas{
+        display: flex;
+        position: absolute;
+        top: 172px;
+        left: 17px;
+    }
+    .salir{
+        display: flex;
+        position: absolute; 
+        top: 198px;
+        left: 25px;
+    }
+    .one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 95vh;
+    }
+    .card1 .image1 img{
+        display: flex;
+        width: 70px;
+        margin-left: 4.5vh;
+        margin-top: 2vh;
+        border-radius: 5px;
+    }
+    .resumen1 p{
+        width: 100px;
+        margin-left: 3vh;
+        margin-top: 1vh;
+        font-size: 10px;
+        color: white;
+    }
+    .boton1 a{
+        display: inline-block;
+        padding: 5px 20px;
+        background: linear-gradient(
+        90deg,
+        rgb(149, 78, 215) 0%, 
+        rgba(74,42,193,1) 100%
+        );
+        color: white;
+        text-transform: uppercase;
+        font-size: 8px;
+        border-radius: 10px;
+        margin-top: 2vh;
+        margin-left: -1vh;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    }
+    .card2 .image2 img{
+        display: flex;
+        width: 70px;
+        margin-left: 4.5vh;
+        margin-top: 2vh;
+        border-radius: 5px;
+       
+    }
+    .resumen2 p{
+        display: center;
+        width: 90px;
+        font-size: 10px;
+        margin-left: 3vh;
+        margin-top: 1vh;
+        color: white;
+    }
+    .boton2 a{
+        display: inline-block;
+        padding: 5px 20px;
+        background: linear-gradient(
+        90deg,
+        rgba(149,78,215) 0%, 
+        rgba(74,42,193,1) 100%
+        );
+        color: white;
+        text-transform: uppercase;
+        font-size: 8px;
+        border-radius: 10px;
+        margin-top: 2vh;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    }
+    .tablaok1{
+        background-color: #706dff;
+        background-size: 100%;
+        width: 35%;
+        height: 45%;
+        margin-top: 45%;
+        margin-left: 1vh;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    } 
+    .tablaok2{
+        background-color: #706dff;
+        background-size: 100%;
+        width: 35%;
+        height: 45%;
+        margin-top: 45%;
+        margin-left: 4vh;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
+    .agradecimientos h4{
+        position: relative;
+        font-size: 25px;
+        color: white;
+        margin-top: 5%;
+    }
+    .agradecimientos p{
+        position: absolute;
+        background-color: rgba(189, 189, 189, 0.562);
+        width: 90%;
+        border-radius: 50px;
+        left: 5%;
+        top: 110%;
+        font-size: 15px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    }
+    .profile{
+        display: flex;
+        background: linear-gradient(45deg,#604eff, white);
+        width: 10%;
+        height: 5%;
+        border-radius: 60px;
+        margin-top: 210%;  
+        margin-left: -82%;
+        font-size: 25px;  
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+        animation: color 3s ease-in-out infinite;
+    }
+    .profile a{
+        margin-left: 23%;
+        margin-top: 17%;
+        color: #4e3bf5;
+    }
+    
+}

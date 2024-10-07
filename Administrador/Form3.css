@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+body{
+    text-align: center;
+    background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff);
+    background-size: 300% 300%;
+    animation: color 3s ease-in-out infinite;
+    width: 100%;
+    height: 100vh;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182vh;
+    height: 90vh;
+    margin-left: 13vh;
+    
+}
+.datos input{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 175px;
+}
+.cargo select{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 175px;
+    text-align: center;
+}
+.canti select{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 175px;
+    text-align: center;
+}
+.sede select{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 175px;
+    text-align: center;
+}
+.password input{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 175px;
+    text-align: center;
+}
+.bt{
+    border-radius: 5px;
+    width: 14vh;
+    background: linear-gradient(100deg, #10e6a6, #ffffff);
+    background-size: 100%;
+    font-size: 18px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin-left: 40%;
+}
+.bt:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.container{
+    display: block;
+    background: linear-gradient(45deg, #042c99, #36effc);
+    background-size: 105%;
+    background-position: center;
+    height: 92%;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+}
+.box-fondo2{
+    height: 17%;
+    size: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-fondo2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;   
+}  
+form{
+    width: 40%;
+    height: 98%;
+    margin-top: 21vh;
+} 
+.botons a{
+    display: inline-block;
+    padding: 5px 10px;
+    background: linear-gradient(
+    90deg,
+    rgba(78,159,215,1) 0%, 
+    rgba(74,42,193,1) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vh;
+    border-radius: 50%;
+    border: 1px solid #40c7f0;
+}
+.botons{
+    margin-right: 95%;
+    margin-top: -39%;
+}
+@media(max-width:780px){
+
+    .uno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vh;
+        height: 65vh;
+        margin-left: -58%;
+        margin-top: 25%;
+    }
+    .botons a{
+        display: inline-block;
+        padding: 5px 10px;
+        background: linear-gradient(
+        90deg,
+        rgba(78,159,215,1) 0%, 
+        rgba(74,42,193,1) 100%
+        );
+        color: white;
+        text-transform: uppercase;
+        font-size: 4vh;
+        border-radius: 50%;
+        border: 1px solid #40c7f0;
+    }
+    .botons{
+        margin-right: 80%;
+        margin-top: -160%;
+    }
+    .container{
+        display: block;
+        background: linear-gradient(45deg, #042c99, #36effc);
+        background-size: 105%;
+        background-position: center;
+        height: 85%;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px; 
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    }
+    .bt{
+        border-radius: 5px;
+        width: 10vh;
+        background: linear-gradient(100deg, #10e6a6, #ffffff);
+        background-size: 100%;
+        font-size: 18px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+        margin-left: 36%;
+    }
+
+}

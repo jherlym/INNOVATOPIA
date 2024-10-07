@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;  
+}
+body{
+    text-align: center;
+    background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff);
+    background-size: 300% 300%;
+    animation: color 3s ease-in-out infinite;
+    width: 100%;
+    height: 100vh;
+}
+@keyframes color{
+    0%{
+        background-position: 0 30%;
+    }
+    50%{
+        background-position: 50% 30%;
+    }
+    100%{
+        background-position: 0 30%;
+    }
+}
+.boton1 a{
+    display: inline-block;
+    padding: 5px 10px;
+    background: linear-gradient(
+    90deg,
+    rgba(78,159,215,1) 0%, 
+    rgba(74,42,193,1) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vh;
+    border-radius: 10px;
+    margin-left: -94%;
+    margin-top: 2%;
+    border: 1px solid #40c7f0;
+    border-radius: 50%;
+}
+.cuadrado{
+    display: block;
+    position: absolute;
+    align-items: center;
+    background: linear-gradient(45deg, #ffffff, #1540b4);
+    width: 50%;
+    left: 25%;
+    height: 90%;
+    box-shadow: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    margin-top: -1.5%;
+}
+.cua{
+    font-size: 115%;
+    
+}
+.cua2{
+    font-size: 115%;
+}
+.cua3{
+    font-size: 115%;
+}
+.cua4{
+    font-size: 115%;
+}
+.cua5{
+    font-size: 115%;
+}
+.cua6{
+    font-size: 115%;
+}
+.cua7{
+    font-size: 115%;
+}
+
+@media(max-width:780px){
+
+    .boton1 a{
+        display: inline-block;
+        padding: 5px 10px;
+        background: linear-gradient(
+        90deg,
+        rgba(78,159,215,1) 0%, 
+        rgba(74,42,193,1) 100%
+        );
+        color: white;
+        text-transform: uppercase;
+        font-size: 4vh;
+        border-radius: 10px;
+        margin-left: -82%;
+        margin-top: 3%;
+        border: 1px solid #40c7f0;
+        border-radius: 50%;
+    }
+    .cuadrado{
+        display: block;
+        position: absolute;
+        align-items: center;
+        background: linear-gradient(45deg, #ffffff, #1540b4);
+        width: 80%;
+        left: 11%;
+        height: 87%;
+        box-shadow: rgba(255, 255, 255, 0.7);
+        border-radius: 100px;
+        margin-top: 3%;
+    }
+    .cua{
+        font-size: 105%;
+        width: 88%;
+        margin-left: 6%;
+    }
+    .cua2{
+        font-size: 105%;
+    }
+    .cua3{
+        font-size: 105%;
+        width: 92%;
+        margin-left: 5%;
+    }
+    .cua4{
+        font-size: 105%;
+        width: 85%;
+        margin-left: 8%;
+    }
+    .cua5{
+        font-size: 105%;
+    }
+    .cua6{
+        font-size: 105%;
+        width: 100%;
+    }
+    .cua7{
+        font-size: 105%;
+        width: 95%;
+        margin-left: 2%;
+    }
+
+}

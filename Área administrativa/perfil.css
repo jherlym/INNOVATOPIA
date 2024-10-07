@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff);
+    background-size: 280% 280%;
+    animation: color 3s ease-in-out infinite;
+    width: 100%;
+    height: 100vh;
+}
+@keyframes color{
+    0%{
+        background-position: 0 30%;
+    }
+    50%{
+        background-position: 50% 30%;
+    }
+    100%{
+        background-position: 0 30%;
+    }
+}
+.title h4{
+    display: flex;
+    font-size: 20px;
+    margin-left: 110%;
+    margin-top: -55%;
+}
+.title img{
+    display: flex;
+    border-radius: 100px;
+    width: 12%;
+    margin-left: 107.5%;
+    margin-top: 2%;
+}
+.datos{
+    display: flex;
+    font-size: 20px;
+    margin-left: 113%;
+    margin-top: 5%; 
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+}
+.fonde{
+    background-color:#ffffff5e ;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 63%;
+    margin-top: 2%;
+    width: 30%;
+    height: 90%;
+    border-radius: 20%;
+}
+.botone{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    background: linear-gradient(
+    90deg,
+    rgb(122, 99, 255) 0%, 
+    rgb(255, 255, 255) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 107%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.botone2{
+    display: inline-block;
+    padding: 10px 30px;
+    background: linear-gradient(
+    90deg,
+    rgb(122, 99, 255) 0%, 
+    rgb(255, 255, 255) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 107%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+.logito img{
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    top: 11%;
+    left: 52vh;
+}
+.frase{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    width: 50%;
+    height: 26%;
+    font-size: 24px;
+    background-color:#ffffff5e;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+}
+
+@media(max-width:780px){
+
+    .title h4{
+        position: absolute;
+        display: flex;
+        font-size: 20px;
+        margin-left: 40%;
+        margin-top: -90%;
+    }
+    .title img{
+        position: absolute;
+        display: flex;
+        border-radius: 100px;
+        width: 12%;
+        margin-left: 42%;
+        margin-top: -83%;
+    }
+    .datos{
+        position: absolute;
+        display: flex;
+        font-size: 20px;
+        margin-left: 17%;
+        margin-top: -65%; 
+        align-items: center;
+        justify-content: center;
+        display: flex;  
+    }
+    .fonde{
+        position: relative;
+        background-color:#ffffff5e ;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        margin-left: 1%;
+        margin-top: 4%;
+        width: 80%;
+        height: 45%;
+        border-radius: 20%;
+    }
+    .botone{
+        position: absolute;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+        background: linear-gradient(
+        90deg,
+        rgb(122, 99, 255) 0%, 
+        rgb(255, 255, 255) 100%
+        );
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-radius: 10px;
+        margin-top: -28%;
+        margin-left: 28%;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    }
+    .botone2{
+        position: absolute;
+        display: inline-block;
+        padding: 10px 30px;
+        background: linear-gradient(
+        90deg,
+        rgb(122, 99, 255) 0%, 
+        rgb(255, 255, 255) 100%
+        );
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-radius: 10px;
+        margin-top: -16%;
+        margin-left: 30%;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    }
+    .logito img{
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 150px;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        top: 53%;
+        left: 18vh;
+    }
+    .frase{
+        display: flex;
+        position: absolute;
+        top: 68%;
+        left: 24%;
+        width: 52%;
+        height: 20%;
+        font-size: 18px;
+        background-color:#ffffff5e;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        border-radius: 50px;
+    }
+
+}

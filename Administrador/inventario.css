@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff);
+    background-size: 300% 300%;
+    animation: color 3s ease-in-out infinite;
+    width: 100%;
+    height: 100vh;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.boton1 a{
+    display: inline-block;
+    padding: 5px 20px;
+    background: linear-gradient(
+    90deg,
+    rgb(54, 72, 230) 0%, 
+    rgb(57, 234, 240) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: -1vh;
+    border: 1px solid #40c7f0;
+}
+.boton2 a{
+    display: inline-block;
+    padding: 5px 20px;
+    background: linear-gradient(
+    90deg,
+    rgb(54, 72, 230) 0%, 
+    rgb(57, 234, 240) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: -1vh;
+    border: 1px solid #40c7f0;
+}
+.boton3 a{
+    display: inline-block;
+    padding: 5px 10px;
+    background: linear-gradient(
+    90deg,
+    rgba(78,159,215,1) 0%, 
+    rgba(74,42,193,1) 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vh;
+    border-radius: 10px;
+    margin-left: -94%;
+    margin-top: 2%;
+    border: 1px solid #40c7f0;
+    border-radius: 50%;
+}
+.titulo{
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    background-color: white;
+    background: linear-gradient(45deg,#52a3ff, #0b597e); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1{
+    line-height: 3;
+}
+
+@media (max-width: 780px){
+
+    .boton1 a{
+        margin-top: 18%;
+    }
+    .boton2 a{
+        margin-top: 12%;
+    }
+    .boton3 a{
+        display: inline-flex;
+        padding: 5px 10px;
+        margin-left: -80%;
+    }
+
+}

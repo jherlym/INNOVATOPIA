@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Form2.css">
+    <link rel="shortcut icon" href="Logos/Logo 4.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/797de46aed.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+  <div class="uno">
+    <form action="#" method="post"> 
+    <div class="container">
+    <div class="box-fondo2"><p>Formulario de préstamos</p></div>
+    <br><br> 
+      <div class="datos">
+    <label for="documento">Tipo de documento</label>
+    <br>
+    <select name="documento" id="tipo-documento" required>
+      <option value="#" disabled>Seleccione documento</option>
+      <option value="Cedula-ciudadania">Cédula de ciudadania</option>
+      <option value="Cedula-extranjeria">Cédula de extranjeria</option>
+      <option value="Pasaporte">Pasaporte</option>
+      <option value="Tarjeta-identidad">Tarjeta de identidad</option>
+    </select>
+      </div>
+
+    <br>
+    <div class="documento-num">
+    <label for="cargo">Documento</label>
+    <br>
+    <input type="number" name="documento" id="documento" required>
+    </div>
+
+    <br>
+    <div class="fecha-presta">
+    <label for="fecha">Fecha de préstamo</label>
+    <br>
+    <input type="date" name="fecha" id="fecha" required>
+    </div>
+    <br>
+    <div class="articulo">
+    <label for="art-presta">Artículo que prestará</label>
+    <br>
+    <select name="art-presta" id="art-presta" required>
+      <option value="#" disabled>Seleccionar</option>
+      <option value="PC">Computador</option>
+      <option value="Bafles">Bafles</option>
+    </select>
+    <br><br>
+    <div class="email">
+      <label for="email">E-mail</label>
+      <br>
+      <input type="text" placeholder="Email" required>
+     </div>
+     <br>
+      <div class="bt">
+        <a style="color: black;" href="Form3.html">Continuar</a>
+      </div>
+    </div>
+      </div>
+    </form>
+    </div>
+
+    <div class="botons">
+      <a href="bienvenida.html"><i class="fa-solid fa-arrow-left"></i></a>
+  </div>
+
+</body>
+</html>
