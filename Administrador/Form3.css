@@ -94,7 +94,7 @@ form{
 } 
 .botons a{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     padding: 5px 10px;
     background:rgba(255, 255, 255, 0.1);
     color: white;
@@ -106,9 +106,6 @@ form{
 .botons{
     margin-right: 98%;
     margin-top: -41%;
-}
-.botons div{
-    position: relative;
 }
 @media(max-width:780px){
 
