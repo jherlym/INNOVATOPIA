@@ -209,17 +209,18 @@ h4{
     text-align: right;
 }
 
-.nombre_empresa{
+/* .nombre_empresa{
     display: inline-block;
     vertical-align: top;
     width: 50%;
-}
+} */
 
 .año_puesto{
     display: inline-block;
     vertical-align: top;
     text-align: right;
     width: 49%;
+    margin-left: 50%;
 }
 
 .descripcion_puesto{
