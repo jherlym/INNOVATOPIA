@@ -120,16 +120,10 @@ form{
     .botons a{
         display: inline-block;
         padding: 5px 10px;
-        background: linear-gradient(
-        90deg,
-        rgba(78,159,215,1) 0%, 
-        rgba(74,42,193,1) 100%
-        );
         color: white;
         text-transform: uppercase;
         font-size: 4vh;
         border-radius: 50%;
-        border: 1px solid #40c7f0;
     }
     .botons{
         margin-right: 80%;
@@ -137,22 +131,18 @@ form{
     }
     .container{
         display: block;
-        background: linear-gradient(45deg, #042c99, #36effc);
         background-size: 105%;
         background-position: center;
         height: 85%;
         color: white;
         font-size: 20px;
         border-radius: 10px; 
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     }
     .bt{
         border-radius: 5px;
         width: 10vh;
-        background: linear-gradient(100deg, #10e6a6, #ffffff);
         background-size: 100%;
         font-size: 18px;
-        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
         margin-left: 36%;
     }
 

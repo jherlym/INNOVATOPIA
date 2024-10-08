@@ -238,48 +238,48 @@ body{
         position: absolute;
         align-items: center;
         justify-content: center;
-        top: 12px;
-        left: 24px;
+        top: -95px;
+        left: -15px;
     }
     .somos{
         position: absolute;
         align-items: center;
         justify-content: center;
-        top: 38px;
-        left: 12px;
+        top: -70px;
+        left: -25px;
     }
     .tuto{
         position: absolute;
-        top: 65px;
-        left: 14px;
+        top: -42px;
+        left: -22px;
     }
     .gale{
         position: absolute;
-        top: 90px;
-        left: 17px;
+        top: -14px;
+        left: -20px;
     }
     .presta{
         position: absolute;
-        top: 117px;
-        left: 12px;
+        top: 12px;
+        left: -25px;
     }
     .historial{
         display: flex;
         position: absolute;
-        top: 145px;
-        left: 12px;
+        top: 38px;
+        left: -25px;
     }
     .normas{
         display: flex;
         position: absolute;
-        top: 172px;
-        left: 17px;
+        top: 64px;
+        left: -20px;
     }
     .salir{
         display: flex;
         position: absolute; 
-        top: 198px;
-        left: 25px;
+        top: 89px;
+        left: -13px;
     }
     .tabla2{
         display: flex;
@@ -319,7 +319,7 @@ body{
         animation: color 3s ease-in-out infinite;
     }
     .profile a{
-        margin-left: 23%;
+        margin-left: -26%;
         margin-top: 17%;
         color: #ffffff;
     }

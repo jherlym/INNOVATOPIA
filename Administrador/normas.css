@@ -39,22 +39,22 @@ body{
 }
 .normaas{
     position: absolute;
-    right: -14vh;
+    right: -24vh;
     font-size: 15px;
     color: white;
 }
 .menu{
     position: absolute;
-    right: 43vh;
+    right: 34.8vh;
     font-size: 15px;
     color: white;
 }
 .tabla{
     display: flex;
-    position: absolute;
-    left: 6.5vh;
-    top: 15vh;
-    height: 46%;
+    position: relative;
+    right: 24.6%;
+    top: -9.7%;
+    height: 49%;
     background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -64,6 +64,9 @@ body{
     box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     overflow: hidden;
     border-radius: 5px;
+}
+.tabla nav{
+    position: absolute;
 }
 .tabla nav ul{
     display: block;
@@ -88,48 +91,48 @@ body{
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 14px;
-    left: 26px;
+    top: -135px;
+    left: -27px;
 }
 .somos{
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 47px;
-    left: 8px;
+    top: -102px;
+    left: -45px;
 }
 .tuto{
     position: absolute;
-    top: 83px;
-    left: 12px;
+    top: -66px;
+    left: -41px;
 }
 .gale{
     position: absolute;
-    top: 119px;
-    left: 17px;
+    top: -30px;
+    left: -36px;
 }
 .presta{
     position: absolute;
-    top: 158px;
-    left: 7px;
+    top: 9px;
+    left: -46px;
 }
 .historial{
     display: flex;
     position: absolute;
-    top: 196px;
-    left: 8px;
+    top: 47px;
+    left: -45px;
 }
 .normas{
     display: flex;
     position: absolute;
-    top: 232px;
-    left: 17px;
+    top: 83px;
+    left: -36px;
 }
 .salir{
     display: flex;
     position: absolute; 
-    top: 265px;
-    left: 28px;
+    top: 116px;
+    left: -25px;
 }
 .title{
     display: block;
@@ -319,12 +322,12 @@ img:hover{
 .profile{
     position: absolute;
     display: flex;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     width: 3.5%;
-    height: 7.9%;
+    height: 8%;
     border-radius: 60px;
     margin-top: 42%;  
-    margin-left: -86.5%;
+    margin-left: -185vh;
     font-size: 25px;  
     box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     cursor: pointer;
@@ -335,9 +338,16 @@ img:hover{
     transition: 2s;
 }
 .profile a{
-    margin-left: 25%;
-    margin-top: 23%;
-    color: white;
+    position: absolute;
+    margin-left: -23%;
+    margin-top: 21%;
+    color: #ffffff;
+}
+.profile div{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
 }
 
 @media (max-width: 780px){
@@ -359,7 +369,7 @@ img:hover{
     }
     .normaas{
         position: absolute;
-        right: -12vh;
+        right: -16vh;
         font-size: 8px;
         color: white;
     }
@@ -375,7 +385,6 @@ img:hover{
         width: 80px;
         height: 80px;
         border-radius: 150px;
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
         top: 10px;
         left: 36vh;
     }
@@ -385,13 +394,11 @@ img:hover{
         left: 2vh;
         top: 8vh;
         height: 24vh;
-        background-color: #706dff;
         background-size: 100%;
         background-repeat: no-repeat;
         width: 78px;
         justify-content: center;
         align-items: center; 
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
         overflow: hidden;
         border-radius: 5px;
     }
@@ -407,48 +414,48 @@ img:hover{
         position: absolute;
         align-items: center;
         justify-content: center;
-        top: 12px;
-        left: 24px;
+        top: -95px;
+        left: -15px;
     }
     .somos{
         position: absolute;
         align-items: center;
         justify-content: center;
-        top: 38px;
-        left: 12px;
+        top: -70px;
+        left: -25px;
     }
     .tuto{
         position: absolute;
-        top: 65px;
-        left: 14px;
+        top: -42px;
+        left: -22px;
     }
     .gale{
         position: absolute;
-        top: 90px;
-        left: 17px;
+        top: -14px;
+        left: -20px;
     }
     .presta{
         position: absolute;
-        top: 117px;
-        left: 12px;
+        top: 12px;
+        left: -25px;
     }
     .historial{
         display: flex;
         position: absolute;
-        top: 145px;
-        left: 12px;
+        top: 38px;
+        left: -25px;
     }
     .normas{
         display: flex;
         position: absolute;
-        top: 172px;
-        left: 17px;
+        top: 64px;
+        left: -20px;
     }
     .salir{
         display: flex;
         position: absolute; 
-        top: 198px;
-        left: 25px;
+        top: 89px;
+        left: -13px;
     }
     .one{
         display: flex;
@@ -466,9 +473,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm1 h4{  
         font-size: 10px;
@@ -486,9 +491,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm2 h4{
         font-size: 10px;
@@ -506,9 +509,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm3 h4{
         font-size: 10px;
@@ -526,9 +527,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm4 h4{
         font-size: 10px;
@@ -546,9 +545,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm5 h4{
         font-size: 10px;
@@ -566,9 +563,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm6 h4{
         font-size: 10px;
@@ -586,9 +581,7 @@ img:hover{
         justify-items: center;
         position: relative;
         border-radius: 20%;
-        border: 1px solid black;
         cursor: pointer;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .norm7 h4{
         font-size: 10px;
@@ -600,39 +593,26 @@ img:hover{
     .boton a{
         display: inline-block;
         padding: 10px 15px;
-        background: linear-gradient(
-        90deg,
-        rgb(84, 211, 243) 0%, 
-        rgb(45, 42, 193) 100%
-        );
         color: white;
         text-transform: uppercase;
         font-size: 10px;
         border-radius: 10px;
         margin-top: 17vh;
-        margin-left: -4%;
+        margin-left: -10%;
     }
     .manual a{
         display: inline-block;
         padding: 10px 15px;
-        background: linear-gradient(
-        90deg,
-        rgb(84, 211, 243) 0%, 
-        rgb(45, 42, 193) 100%
-        );
         color: white;
         text-transform: uppercase;
         font-size: 10px;
         border-radius: 10px;
-        margin-top: 30%;
-        margin-left: 45%;
-        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+        margin-top: 75%;
+        margin-left: 5%;
     }
     .title{
         display: block;
         padding: 0px 18px;
-        background-color: white;
-        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
         width: 50%;
         height: 8%;
         font-size: 14px;
@@ -642,21 +622,18 @@ img:hover{
     }
     .profile{
         display: flex;
-        background: linear-gradient(45deg,#604eff, white);
         width: 10%;
         height: 5%;
         border-radius: 60px;
         margin-top: 210%;  
         margin-left: -82%;
         font-size: 25px;  
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
         cursor: pointer;
         animation: color 3s ease-in-out infinite;
     }
     .profile a{
-        margin-left: 23%;
+        margin-left: -26%;
         margin-top: 17%;
-        color: #4e3bf5;
     }
 
 }
