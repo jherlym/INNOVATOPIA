@@ -7,14 +7,20 @@
 }
 body{
     text-align: center;
+<<<<<<< HEAD
     /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
     background-size: 300% 300%;
     background-color: #00001a;
     /* animation: color 3s ease-in-out infinite; */
+=======
+    background-color: #00001a;
+    background-size: 100%;
+    animation: color 3s ease-in-out infinite;
+>>>>>>> e11cdeb6755291e90bc00f6ed656a6c133ec34e1
     width: 100%;
     height: 105vh;
 }
-@keyframes color{
+/* @keyframes color{
     0%{
         background-position: 0 30%;
     }
@@ -24,7 +30,7 @@ body{
     100%{
         background-position: 0 30%;
     }
-}
+} */
 .one{
     display: flex;
     align-items: center;
@@ -38,9 +44,9 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 150px;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     top: 10px;
-    left: 190vh;
+    left: 85%;
 }
 .menus{
     display: flex;
@@ -50,13 +56,6 @@ body{
     top: 65px;
     color: black;
 }
-/* .innova{
-    display: flex;
-    position: absolute;
-    left: 120vh;
-    font-size: 15px;
-    color: white;
-} */
 .qnsomos{
     position: absolute;
     left:  30vh;
@@ -65,7 +64,7 @@ body{
 }
 .menu{
     position: absolute;
-    right: 7.5vh;
+    right: 8vh;
     font-size: 15px;
     color: white;
 }
@@ -74,14 +73,14 @@ body{
     position: absolute;
     left: 6.5vh;
     top: 15vh;
-    height: 47vh;
-    background-color: #706dff;
+    height: 46%;
+    background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 105px;
     justify-content: center;
     align-items: center; 
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     overflow: hidden;
     border-radius: 5px;
 }
@@ -178,8 +177,8 @@ font-family: "Poppins", sans-serif;
     padding: 5px 20px;
     background: linear-gradient(
     90deg,
-    rgb(149, 78, 215) 0%, 
-    rgba(74,42,193,1) 100%
+    rgb(0, 0, 0) 0%, 
+    rgb(1, 1, 37) 100%
     );
     color: white;
     text-transform: uppercase;
@@ -208,8 +207,8 @@ font-family: "Poppins", sans-serif;
     padding: 5px 20px;
     background: linear-gradient(
     90deg,
-    rgba(149,78,215) 0%, 
-    rgba(74,42,193,1) 100%
+    rgb(0, 0, 0) 0%, 
+    rgba(1, 1, 37) 100%
     );
     color: white;
     text-transform: uppercase;
@@ -219,23 +218,23 @@ font-family: "Poppins", sans-serif;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 .tablaok1{
-    background-color: #706dff;
+    background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     width: 28%;
     height: 79%;
     margin-top: 110px;
     margin-left: 20vh;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 } 
 .tablaok2{
-    background-color: #706dff;
+    background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     width: 28%;
     height: 79%;
     margin-top: 110px;
     margin-left: 10vh;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 .agradecimientos h4{
@@ -255,14 +254,14 @@ font-family: "Poppins", sans-serif;
 .profile{
     position: absolute;
     display: flex;
-    background: linear-gradient(45deg,#604eff, white);
+    background: rgba(255, 255, 255, 0.2);
     width: 3.5%;
     height: 8%;
     border-radius: 60px;
-    margin-top: 41%;  
+    margin-top: 42%;  
     margin-left: -185vh;
     font-size: 25px;  
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     cursor: pointer;
     animation: color 3s ease-in-out infinite;
 }
@@ -271,9 +270,9 @@ font-family: "Poppins", sans-serif;
     transition: 2s;
 }
 .profile a{
-    margin-left: 23%;
-    margin-top: 20%;
-    color: #4e3bf5;
+    margin-left: 25%;
+    margin-top: 23%;
+    color: white;
 }
 
 @media(max-width: 780px){
