@@ -7,23 +7,10 @@
 }
 body{
     text-align: center;
-    /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
     background-size: 280% 280%;
     background-color: #00001a;
-    /* animation: color 3s ease-in-out infinite; */
     width: 100%;
     height: 100vh;
-}
-@keyframes color{
-    0%{
-        background-position: 0 30%;
-    }
-    50%{
-        background-position: 50% 30%;
-    }
-    100%{
-        background-position: 0 30%;
-    }
 }
 .title h4{
     display: flex;
@@ -45,10 +32,11 @@ body{
     margin-top: 5%; 
     align-items: center;
     justify-content: center;
-    display: flex;  
+    display: flex; 
+    color: white; 
 }
 .fonde{
-    background-color:#ffffff5e ;
+    background-color:rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     display: inline-block;
     margin-left: 63%;
@@ -64,10 +52,9 @@ body{
     padding: 10px 15px;
     background: linear-gradient(
     90deg,
-    rgb(122, 99, 255) 0%, 
-    rgb(255, 255, 255) 100%
+    rgb(0, 0, 0) 0%, 
+    rgb(1, 1, 37) 100%
     );
-    color: white;
     text-transform: uppercase;
     font-size: 12px;
     border-radius: 10px;
@@ -80,10 +67,9 @@ body{
     padding: 10px 30px;
     background: linear-gradient(
     90deg,
-    rgb(122, 99, 255) 0%, 
-    rgb(255, 255, 255) 100%
+    rgb(0, 0, 0) 0%, 
+    rgb(1, 1, 37) 100%
     );
-    color: white;
     text-transform: uppercase;
     font-size: 12px;
     border-radius: 10px;
@@ -97,7 +83,7 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 150px;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     top: 11%;
     left: 52vh;
 }
@@ -109,9 +95,10 @@ body{
     width: 50%;
     height: 26%;
     font-size: 24px;
-    background-color:#ffffff5e;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    background-color:rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
+    color: white;
 }
 
 @media(max-width:780px){

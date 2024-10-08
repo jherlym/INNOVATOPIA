@@ -7,30 +7,11 @@
 }
 body{
     text-align: center;
-<<<<<<< HEAD
-    /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
-    background-size: 300% 300%;
-    background-color: #00001a;
-    /* animation: color 3s ease-in-out infinite; */
-=======
     background-color: #00001a;
     background-size: 100%;
-    animation: color 3s ease-in-out infinite;
->>>>>>> e11cdeb6755291e90bc00f6ed656a6c133ec34e1
     width: 100%;
-    height: 105vh;
+    height: 105%;
 }
-/* @keyframes color{
-    0%{
-        background-position: 0 30%;
-    }
-    50%{
-        background-position: 50% 30%;
-    }
-    100%{
-        background-position: 0 30%;
-    }
-} */
 .one{
     display: flex;
     align-items: center;
