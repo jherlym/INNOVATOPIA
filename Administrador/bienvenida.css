@@ -7,24 +7,11 @@
 }
 body{
     text-align: center;
-    /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
     background-color: #00001a;
     background-size: 100% 100%;
-    /* animation: color 3s ease-in-out infinite; */
     width: 100%;
     height: 100%;
 }
-/* @keyframes color{
-    0%{
-        background-position: 0 30%;
-    }
-    50%{
-        background-position: 50% 30%;
-    }
-    100%{
-        background-position: 0 30%;
-    }
-} */
 .one{
     display: flex;
     align-items: center;
@@ -52,22 +39,22 @@ body{
 }
 .inicio{
     position: absolute;
-    right: 27vh;
+    right: 16vh;
     font-size: 15px;
     color: white;
 }
 .menu{
     position: absolute;
-    right: 79vh;
+    right: 70.8vh;
     font-size: 15px;
     color: white;
 }
 .tabla{
     display: flex;
-    position: absolute;
-    left: 6.5vh;
-    top: 15vh;
-    height: 46%;
+    position: relative;
+    right: 42.6%;
+    top: -9.7%;
+    height: 49%;
     background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -77,6 +64,9 @@ body{
     box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     overflow: hidden;
     border-radius: 5px;
+}
+.tabla nav{
+    position: absolute;
 }
 .tabla nav ul{
     display: block;
@@ -101,48 +91,48 @@ body{
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 14px;
-    left: 26px;
+    top: -135px;
+    left: -27px;
 }
 .somos{
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 47px;
-    left: 8px;
+    top: -102px;
+    left: -45px;
 }
 .tuto{
     position: absolute;
-    top: 83px;
-    left: 12px;
+    top: -66px;
+    left: -41px;
 }
 .gale{
     position: absolute;
-    top: 119px;
-    left: 17px;
+    top: -30px;
+    left: -36px;
 }
 .presta{
     position: absolute;
-    top: 158px;
-    left: 7px;
+    top: 9px;
+    left: -46px;
 }
 .historial{
     display: flex;
     position: absolute;
-    top: 196px;
-    left: 8px;
+    top: 47px;
+    left: -45px;
 }
 .normas{
     display: flex;
     position: absolute;
-    top: 232px;
-    left: 17px;
+    top: 83px;
+    left: -36px;
 }
 .salir{
     display: flex;
     position: absolute; 
-    top: 265px;
-    left: 28px;
+    top: 116px;
+    left: -25px;
 }
 .tabla2{
     display: flex;
