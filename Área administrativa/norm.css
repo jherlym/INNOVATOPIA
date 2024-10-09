@@ -7,56 +7,39 @@
 }
 body{
     text-align: center;
-    /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
-    background-size: 300% 300%;
+    background-size: 100%;
     background-color: #00001a;
-    /* animation: color 3s ease-in-out infinite; */
     width: 100%;
-    height: 100vh;
-}
-@keyframes color{
-    0%{
-        background-position: 0 30%;
-    }
-    50%{
-        background-position: 50% 30%;
-    }
-    100%{
-        background-position: 0 30%;
-    }
+    height: 100%;
 }
 .boton1 a{
     display: inline-block;
     padding: 5px 10px;
-    background: linear-gradient(
-    90deg,
-    rgba(78,159,215,1) 0%, 
-    rgba(74,42,193,1) 100%
-    );
+    background:rgba(255, 255, 255, 0.1);
     color: white;
     text-transform: uppercase;
     font-size: 4vh;
     border-radius: 10px;
     margin-left: -94%;
     margin-top: 2%;
-    border: 1px solid #40c7f0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
 }
 .cuadrado{
     display: block;
     position: absolute;
     align-items: center;
-    background: linear-gradient(45deg, #ffffff, #1540b4);
+    color: white;
+    background:rgba(255, 255, 255, 0.1);
     width: 50%;
-    left: 25%;
+    left: 24%;
     height: 90%;
-    box-shadow: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
     border-radius: 100px;
     margin-top: -1.5%;
 }
 .cua{
     font-size: 115%;
-    
 }
 .cua2{
     font-size: 115%;
@@ -82,29 +65,21 @@ body{
     .boton1 a{
         display: inline-block;
         padding: 5px 10px;
-        background: linear-gradient(
-        90deg,
-        rgba(78,159,215,1) 0%, 
-        rgba(74,42,193,1) 100%
-        );
         color: white;
         text-transform: uppercase;
         font-size: 4vh;
         border-radius: 10px;
         margin-left: -82%;
         margin-top: 3%;
-        border: 1px solid #40c7f0;
         border-radius: 50%;
     }
     .cuadrado{
         display: block;
         position: absolute;
         align-items: center;
-        background: linear-gradient(45deg, #ffffff, #1540b4);
         width: 80%;
         left: 11%;
         height: 87%;
-        box-shadow: rgba(255, 255, 255, 0.7);
         border-radius: 100px;
         margin-top: 3%;
     }

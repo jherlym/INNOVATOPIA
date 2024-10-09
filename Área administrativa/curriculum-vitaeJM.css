@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: #00001a;
     /* background-color: #ffffff; */
+    background-color: #00001a;
     color: #ffffff;
     font-family: 'Ubuntu', sans-serif;
     margin: 5%;
@@ -48,7 +48,7 @@ h4{
 
 .habilidades i{
     font-size: 0.8em;
-    color: #5106e8;
+    color: #000000;
     background: #ffffff;
     border-radius: 2em;
     padding: 2px;
@@ -62,7 +62,7 @@ h4{
 .experiencia i{
     font-size: 0.8em;
     color: #ffffff;
-    background: #5106e8;
+    background: #000000;
     border-radius: 2em;
     padding: 2px;
     width: 1.5em;
@@ -92,7 +92,7 @@ h4{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg,#7252ff, #41f2ff);
+    background-color: #00001a;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
@@ -106,7 +106,7 @@ h4{
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid #5106e8;
+    border: 7px solid #00001a;
     margin: 5%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
@@ -132,7 +132,7 @@ h4{
 .habilidades {
     display: inline-block;
     vertical-align: top;
-    background-color: #5106e8;
+    background-color: #000000;
     padding: 5%;
     width: 28%;
 }
@@ -160,7 +160,7 @@ h4{
     position: absolute;
     width: 60%;
     height: 60%;
-    background-color: #5106e8;
+    background-color: #000000;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -209,17 +209,18 @@ h4{
     text-align: right;
 }
 
-.nombre_empresa{
+/* .nombre_empresa{
     display: inline-block;
     vertical-align: top;
     width: 50%;
-}
+} */
 
 .año_puesto{
     display: inline-block;
     vertical-align: top;
     text-align: right;
     width: 49%;
+    margin-left: 50%;
 }
 
 .descripcion_puesto{

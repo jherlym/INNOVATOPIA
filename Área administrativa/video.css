@@ -7,23 +7,10 @@
 }
 body{
     text-align: center;
-    /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
-    background-size: 300% 300%;
+    background-size: 100%;
     background-color: #00001a;
-    /* animation: color 3s ease-in-out infinite; */
     width: 100%;
-    height: 100vh;
-}
-@keyframes color{
-    0%{
-        background-position: 0 30%;
-    }
-    50%{
-        background-position: 50% 30%;
-    }
-    100%{
-        background-position: 0 30%;
-    }
+    height: 100%;
 }
 .one{
     display: flex;
@@ -39,9 +26,9 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 150px;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     top: 10px;
-    left: 190vh;
+    left: 85%;
 }
 .menus{
     display: flex;
@@ -53,29 +40,29 @@ body{
 }
 .tutorial{
     position: absolute;
-    right: 22vh;
+    right: 13vh;
     font-size: 15px;
     color: white;
 }
 .menu{
     position: absolute;
-    right: 83vh;
+    right: 75.1vh;
     font-size: 15px;
     color: white;
 }
 .tabla{
     display: flex;
-    position: absolute;
-    left: 6.5vh;
-    top: 15vh;
-    height: 43vh;
-    background-color: #706dff;
+    position: relative;
+    right: 44.76%;
+    top: -12.7%;
+    height: 43%;
+    background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 105px;
     justify-content: center;
     align-items: center; 
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     overflow: hidden;
     border-radius: 5px;
 }
@@ -144,12 +131,12 @@ body{
     position: absolute;
     text-align: center;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(158, 158, 158);
     width: 38%;
     height: 40%;
     top: 50px;
     margin-top: 20vh;
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 5px;
 }
 .mn{
@@ -201,24 +188,25 @@ body{
     text-align: center;
     justify-content: center;
     font-size: 18px;
+    color: white;
     margin-top: 65vh;
-    background: linear-gradient(45deg, #0059ff, #ffffff);
+    background: rgba(255, 255, 255, 0.2);
     width: 36%;
     height: 14%;
     border-radius: 5px;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 .profile{
     position: absolute;
     display: flex;
-    background: linear-gradient(45deg,#604eff, white);
+    background: rgba(255, 255, 255, 0.1);
     width: 3.5%;
     height: 8%;
     border-radius: 60px;
-    margin-top: 41%;  
-    margin-left: -195vh;
+    margin-top: 42%;  
+    margin-left: -193.5vh;
     font-size: 25px;  
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     cursor: pointer;
     animation: color 3s ease-in-out infinite;
 }
@@ -227,9 +215,16 @@ body{
     transition: 2s;
 }
 .profile a{
-    margin-left: 23%;
-    margin-top: 20%;
-    color: #4e3bf5;
+    position: absolute;
+    margin-left: -23%;
+    margin-top: 21%;
+    color: #ffffff;
+}
+.profile div{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
 }
 
 @media(max-width: 780px){
@@ -242,22 +237,15 @@ body{
         top: 45px;
         color: black;
     }
-    .innova{
-        display: flex;
-        position: absolute;
-        left: -16vh;
-        font-size: 8px;
-        color: white;
-    }
     .tutorial{
         position: absolute;
-        right: 20vh;
+        right: -1vh;
         font-size: 8px;
         color: white; 
     }
     .menu{
         position: absolute;
-        right: 31vh;
+        right: 15.5vh;
         font-size: 8px;
         color: white;
     }
@@ -267,7 +255,6 @@ body{
         width: 80px;
         height: 80px;
         border-radius: 150px;
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
         top: 10px;
         left: 36vh;
     }
@@ -277,19 +264,16 @@ body{
         left: 2vh;
         top: 8vh;
         height: 21vh;
-        background-color: #706dff;
         background-size: 100%;
         background-repeat: no-repeat;
         width: 78px;
         justify-content: center;
         align-items: center; 
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
         overflow: hidden;
         border-radius: 5px;
     }
     .tabla nav ul li a{
         font-size: 9px;
-        color: white;
         display: block;
         align-items: center;
         justify-content: center;
@@ -341,13 +325,11 @@ body{
         position: absolute;
         text-align: center;
         justify-content: center;
-        background-color: white;
         width: 58%;
         height: 18%;
         top: 50px;
         margin-top: 32vh;
         margin-left: 0vh;
-        border: 5px solid black;
         border-radius: 5px;
     }
     .one{
@@ -410,29 +392,24 @@ body{
         font-size: 15px;
         margin-top: 35vh;
         margin-left: -1vh;
-        background: linear-gradient(45deg, #0059ff, #ffffff);
         width: 50%;
         height: 10%;
         border-radius: 5px;
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     }
     .profile{
         display: flex;
-        background: linear-gradient(45deg,#604eff, white);
         width: 10%;
         height: 5%;
         border-radius: 60px;
         margin-top: 210%;  
         margin-left: -82%;
         font-size: 25px;  
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
         cursor: pointer;
         animation: color 3s ease-in-out infinite;
     }
     .profile a{
-        margin-left: 23%;
+        margin-left: -26%;
         margin-top: 17%;
-        color: #4e3bf5;
     }
     
 }

@@ -92,21 +92,6 @@ form{
     height: 98%;
     margin-top: 21vh;
 } 
-/* .botons a{
-    display: inline-block;
-    position: fixed;
-    padding: 5px 10px;
-    background:rgba(255, 255, 255, 0.1);
-    color: white;
-    text-transform: uppercase;
-    font-size: 4vh;
-    border-radius: 50%;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
-}
-.botons{
-    margin-right: 98%;
-    margin-top: -41%;
-} */
 .botons{
     position: absolute;
     display: flex;
