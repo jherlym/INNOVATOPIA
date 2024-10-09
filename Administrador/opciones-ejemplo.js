@@ -1,4 +1,4 @@
-Swal.fire({
+// Swal.fire({
 	// title:
 	// text:
 	// html:
@@ -57,4 +57,4 @@ Swal.fire({
 	// imageWidth:
 	// imageHeight:
 	// imageAlt:
-});
+// });
