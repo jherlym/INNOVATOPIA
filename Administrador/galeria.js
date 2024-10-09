@@ -34,5 +34,3 @@ function App() {}
             track.style.left = `${-1 * (leftPosition + carruselWidth)}px`;
         }
     }
-
-
