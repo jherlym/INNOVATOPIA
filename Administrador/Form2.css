@@ -92,21 +92,32 @@ form{
     height: 98%;
     margin-top: 21vh;
 }
-.botons a{
-    display: inline-block;
-    position: fixed;
-    padding: 5px 10px;
-    background:rgba(255, 255, 255, 0.1);
-    color: white;
-    text-transform: uppercase;
-    font-size: 4vh;
-    border-radius: 50%;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
-}
 .botons{
-    margin-right: 98%; 
+    position: absolute;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    width: 3.2%;
+    height: 6.8%;
     margin-top: -41%;
+    margin-left: 1%;
+    border-radius: 50px;
+    font-size: 25px;  
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    animation: color 3s ease-in-out infinite;
 }
+.botons a{
+    position: absolute;
+    margin-left: -25%;
+    margin-top: 18%;
+    color: #ffffff;
+}
+.botons div{
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
+}
+
 @media(max-width:780px){
 
     .uno{
