@@ -7,23 +7,10 @@
 }
 body{
     text-align: center;
-    /* background: linear-gradient(45deg,#80a8ff, #5f88fa, #604eff, #5f88fa, #80a8ff); */
-    background-size: 300% 300%;
+    background-size: 100%;
     background-color: #00001a;
-    /* animation: color 3s ease-in-out infinite; */
     width: 100%;
-    height: 100vh;
-}
-@keyframes color{
-    0%{
-        background-position: 0 30%;
-    }
-    50%{
-        background-position: 50% 30%;
-    }
-    100%{
-        background-position: 0 30%;
-    }
+    height: 100%;
 }
 .one{
     display: flex;
@@ -38,9 +25,9 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 150px;
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     top: 10px;
-    left: 190vh;
+    left: 85%;
 }
 .menus{
     display: flex;
@@ -52,29 +39,29 @@ body{
 }
 .galeria{
     position: absolute;
-    margin-right: -95vh;
+    margin-right: -120vh;
     font-size: 15px;
     color: white;
 }
 .menu{
     position: absolute;
-    margin-right: 10vh;
+    margin-right: -5.1vh;
     font-size: 15px;
     color: white;
 }
 .tabla{
     display: flex;
-    position: absolute;
-    left: 6.5vh;
-    top: 15vh;
+    position: relative;
+    right: 2.98%;
+    top: -12.7%;
     height: 43vh;
-    background-color: #706dff;
+    background: rgba(255, 255, 255, 0.2);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 105px;
     justify-content: center;
     align-items: center; 
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
     overflow: hidden;
     border-radius: 5px;
 }
@@ -141,14 +128,14 @@ body{
 .profile{
     position: absolute;
     display: flex;
-    background: linear-gradient(45deg,#604eff, white);
+    background: rgba(255, 255, 255, 0.1);
     width: 3.5%;
     height: 8%;
     border-radius: 60px;
-    margin-top: 41%;  
+    margin-top: 42%;  
     margin-left: -185vh;
     font-size: 25px;  
-    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     cursor: pointer;
     animation: color 3s ease-in-out infinite;
 }
@@ -157,10 +144,18 @@ body{
     transition: 2s;
 }
 .profile a{
-    margin-left: 23%;
-    margin-top: 20%;
-    color: #4e3bf5;
+    position: absolute;
+    margin-left: -23%;
+    margin-top: 21%;
+    color: #ffffff;
 }
+.profile div{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
+}
+
 h2, small, a{
     margin: 0;
     padding: 0;
@@ -302,7 +297,8 @@ a{
     }
     .galeria{
         position: absolute;
-        left: 40vh;
+        left: 43vh;
+        top: -12px;
         font-size: 8px;
         color: white;
     }
@@ -318,7 +314,6 @@ a{
         width: 80px;
         height: 80px;
         border-radius: 150px;
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
         top: 10px;
         left: 36vh;
     }
@@ -328,19 +323,16 @@ a{
         left: 2vh;
         top: 8vh;
         height: 21vh;
-        background-color: #706dff;
         background-size: 100%;
         background-repeat: no-repeat;
         width: 78px;
         justify-content: center;
         align-items: center; 
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
         overflow: hidden;
         border-radius: 5px;
     }
     .tabla nav ul li a{
         font-size: 9px;
-        color: white;
         display: block;
         align-items: center;
         justify-content: center;
@@ -396,21 +388,18 @@ a{
     }
     .profile{
         display: flex;
-        background: linear-gradient(45deg,#604eff, white);
         width: 10%;
         height: 5%;
         border-radius: 60px;
         margin-top: 210%;  
         margin-left: -82%;
         font-size: 25px;  
-        box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
         cursor: pointer;
         animation: color 3s ease-in-out infinite;
     }
     .profile a{
-        margin-left: 23%;
+        margin-left: -26%;
         margin-top: 17%;
-        color: #4e3bf5;
     }
     .carousel h2{
         font-size: 18px;
@@ -479,5 +468,4 @@ a{
         transition: .3s ease-in-out;
     }
     
-}
- 
+} 
